@@ -5,7 +5,6 @@ body,p{
     padding: 0;
     margin: 0;
     font-family: Helvetica, "microsft yahei", sans-serif;
-    height: 768px;
 }
 .main-content{
     margin: 8% auto;
@@ -14,7 +13,7 @@ body,p{
     border-radius: 9px;
     padding: 48px 33px 29px;
     text-align: center;
-    height: 80%;
+    height: 70%;
     /*设置透明度*/
     background:#fff;
     filter: alpha(opacity=70);
@@ -23,14 +22,19 @@ body,p{
 .form{
     margin-top: 10%;
 }
+.form-label{
+    font-size: large;
+    color: #555555;
+}
 .form-input{
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    width: 90%;
+    width: 70%;
     height: 45px;
     font-size: 18px;
-
+    text-align:center;
+    margin-left: 20px;
 }
 .login-btn{
     cursor: pointer;
@@ -38,10 +42,9 @@ body,p{
     width: 90%;
     height: 45px;
     border-radius: 4px;
-    background-color: red;
+    background-color: #2dcf70;
     color: white;
     font-size: 18px;
     /*line-height: 44px;*/
     border: none;
-
 }
