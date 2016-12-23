@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body,p{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, "microsft yahei", sans-serif;
+    height: 768px;
+}
+.main-content{
+    margin: 8% auto;
+    width: 37%;
+    background-color: white;
+    border-radius: 9px;
+    padding: 48px 33px 29px;
+    text-align: center;
+    height: 80%;
+    /*设置透明度*/
+    background:#fff;
+    filter: alpha(opacity=70);
+    opacity: 0.95;
+}
+.form{
+    margin-top: 10%;
+}
+.form-input{
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 90%;
+    height: 45px;
+    font-size: 18px;
+
+}
+.login-btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 90%;
+    height: 45px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    /*line-height: 44px;*/
+    border: none;
+
+}
