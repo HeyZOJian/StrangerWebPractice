@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Stranger|个人资料</title>
+
+    <link rel="stylesheet" href="../css/info.css"/>
+
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- 导航栏 -->
+<div class="head">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="../img/logo.png" style="width: 20%;height: auto;float: left;">
+                <a class="navbar-brand" href="../index.html"><strong>Stranger</strong></a>
+            </div>
+            <div style="float: left">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="#">开始聊天</a></li>
+                    <li><a href="https://github.com/HeyZOJian/StrangerWebPractice">Github</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div style="float: right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="login.html">登陆</a></li>
+                    <li><a href="register.html">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="content">
+    <div class="m-user-banner">
+        <div class="inner">
+            <img src="../img/banner.jpg" alt="">
+        </div>
+    </div>
+    <div class="m-user-info j-user-info" style="display: block;">
+        <span><img class="avatar" src="../img/avatar.jpg"></span>
+        <h1 name="username">zojian</h1>
+        <div class="des"></div>
+    </div>
+</div>
+
+<div class="g-content">
+    <div class="m-user-sider">
+        <div class="item">
+            <a href="#" style="text-decoration: none">
+                <img src="../img/icon/icon-course-sel-2x.png" height="24" width="24"/>
+                <span style="color: #555555;font-size: 20px;margin-left: 10px"> 个人资料</span>
+            </a>
+        </div>
+        <hr/>
+        <div class="item">
+            <a href="#" style="text-decoration: none">
+                <img src="../img/icon/icon-comment-2x.png" height="24" width="24"/>
+                <span style="color: #555555;font-size: 20px;margin-left: 10px"> 手机设置</span>
+            </a>
+        </div>
+        <hr/>
+        <div class="item">
+            <a href="#" style="text-decoration: none">
+                <img src="../img/icon/icon-favourite-2x.png" height="24" width="24"/>
+                <span style="color: #555555;font-size: 20px;margin-left: 10px"> 邮箱验证</span>
+            </a>
+        </div>
+        <hr/>
+        <div class="item">
+            <a href="#" style="text-decoration: none">
+                <img src="../img/icon/email.png" height="24" width="24"/>
+                <span style="color: #555555;font-size: 20px;margin-left: 10px"> 修改密码</span>
+            </a>
+        </div>
+        <hr/>
+    </div>
+
+    <div class="g-user-content border">
+        <div class="m-user-form f-validForm-error-show">
+            <form id="form">
+                <div class="form-ipt">
+                    <label class="label-name"><i class="s-red f-mr5">*</i>昵称</label>
+                    <div class="f-oh">
+                        <input type="text" class="u-txt" name="nickname" value="zojian" datatype="/^[\u4e00-\u9fa5a-zA-Z0-9]{2,18}$/" errormsg="2到18位字母数字汉字">
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name"><i class="s-red f-mr5">*</i>真实姓名</label>
+                    <div class="f-oh">
+                        <input type="text" class="u-txt" name="realname" value="庄中坚" datatype="*">
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name">*性别</label>
+                    <div style="height: 50px;padding-top: 10px;">
+                        <input type="radio" value="0" name="sex">  保密
+                        <input type="radio" value="1" name="sex" checked=""> 男
+                        <input type="radio" value="2" name="sex"> 女
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name"><i class="s-red f-mr5">*</i>学校</label>
+                    <div class="f-oh">
+                        <input type="text" class="u-txt txt1 j-school-ipt" name="school_name" value="北京理工大学珠海学院" datatype="*">
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name"><i class="s-red f-mr5">*</i>入校年份</label>
+                    <div class="f-oh">
+                        <select class="u-slt" name="start_school_time">
+
+                            <option value="2000">2000</option>
+
+                            <option value="2001">2001</option>
+
+                            <option value="2002">2002</option>
+
+                            <option value="2003">2003</option>
+
+                            <option value="2004">2004</option>
+
+                            <option value="2005">2005</option>
+
+                            <option value="2006">2006</option>
+
+                            <option value="2007">2007</option>
+
+                            <option value="2008">2008</option>
+
+                            <option value="2009">2009</option>
+
+                            <option value="2010">2010</option>
+
+                            <option value="2011">2011</option>
+
+                            <option value="2012">2012</option>
+
+                            <option value="2013">2013</option>
+
+                            <option value="2014" selected="">2014</option>
+
+                            <option value="2015">2015</option>
+
+                            <option value="2016">2016</option>
+
+                            <option value="2017">2017</option>
+
+                            <option value="2018">2018</option>
+
+                            <option value="2019">2019</option>
+
+                            <option value="2020">2020</option>
+
+                            <option value="2021">2021</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name"><i class="s-red f-mr5">*</i>离校年份</label>
+                    <div class="f-oh">
+                        <select class="u-slt" name="end_school_time">
+
+                            <option value="2000">2000</option>
+
+                            <option value="2001">2001</option>
+
+                            <option value="2002">2002</option>
+
+                            <option value="2003">2003</option>
+
+                            <option value="2004">2004</option>
+
+                            <option value="2005">2005</option>
+
+                            <option value="2006">2006</option>
+
+                            <option value="2007">2007</option>
+
+                            <option value="2008">2008</option>
+
+                            <option value="2009">2009</option>
+
+                            <option value="2010">2010</option>
+
+                            <option value="2011">2011</option>
+
+                            <option value="2012">2012</option>
+
+                            <option value="2013">2013</option>
+
+                            <option value="2014">2014</option>
+
+                            <option value="2015">2015</option>
+
+                            <option value="2016">2016</option>
+
+                            <option value="2017">2017</option>
+
+                            <option value="2018" selected="">2018</option>
+
+                            <option value="2019">2019</option>
+
+                            <option value="2020">2020</option>
+
+                            <option value="2021">2021</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name"><i class="s-red f-mr5">*</i>现居地</label>
+                    <div class="f-oh">
+                        <select class="u-slt f-mr10" id="slt1"><option value="">请选择</option><option id="2" value="2">北京</option><option id="3" value="3">安徽</option><option id="4" value="4">福建</option><option id="5" value="5">甘肃</option><option id="6" value="6">广东</option><option id="7" value="7">广西</option><option id="8" value="8">贵州</option><option id="9" value="9">海南</option><option id="10" value="10">河北</option><option id="11" value="11">河南</option><option id="12" value="12">黑龙江</option><option id="13" value="13">湖北</option><option id="14" value="14">湖南</option><option id="15" value="15">吉林</option><option id="16" value="16">江苏</option><option id="17" value="17">江西</option><option id="18" value="18">辽宁</option><option id="19" value="19">内蒙古</option><option id="20" value="20">宁夏</option><option id="21" value="21">青海</option><option id="22" value="22">山东</option><option id="23" value="23">山西</option><option id="24" value="24">陕西</option><option id="25" value="25">上海</option><option id="26" value="26">四川</option><option id="27" value="27">天津</option><option id="28" value="28">西藏</option><option id="29" value="29">新疆</option><option id="30" value="30">云南</option><option id="31" value="31">浙江</option><option id="32" value="32">重庆</option><option id="33" value="33">香港</option><option id="34" value="34">澳门</option><option id="35" value="35">台湾</option></select>
+                        <select class="u-slt f-mr10" id="slt2"><option value="">请选择</option><option id="76" value="76">广州</option><option id="77" value="77">深圳</option><option id="78" value="78">潮州</option><option id="79" value="79">东莞</option><option id="80" value="80">佛山</option><option id="81" value="81">河源</option><option id="82" value="82">惠州</option><option id="83" value="83">江门</option><option id="84" value="84">揭阳</option><option id="85" value="85">茂名</option><option id="86" value="86">梅州</option><option id="87" value="87">清远</option><option id="88" value="88">汕头</option><option id="89" value="89">汕尾</option><option id="90" value="90">韶关</option><option id="91" value="91">阳江</option><option id="92" value="92">云浮</option><option id="93" value="93">湛江</option><option id="94" value="94">肇庆</option><option id="95" value="95">中山</option><option id="96" value="96">珠海</option></select>
+                        <select class="u-slt" id="slt3" name="area_id" datatype="*"><option value="">请选择</option><option id="850" value="850">香洲区</option><option id="851" value="851">斗门区</option><option id="852" value="852">金湾区</option></select>
+                    </div>
+                </div>
+                <div class="form-ipt">
+                    <label class="label-name">个性签名</label>
+                    <div class="f-oh">
+                        <textarea name="description" class="u-txtarea" rows="5" cols="50" datatype="*1-128" ignore="ignore" errormsg="最多128个字符"></textarea>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div class="form-ipt">
+                    <label class="label-name">&nbsp;</label>
+                    <div class="f-oh">
+                        <input type="submit" class="btn-submit" value="保存">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

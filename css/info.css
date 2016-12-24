@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body,p{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, "microsft yahei", sans-serif;
+}
+.m-user-banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.m-user-info {
+    text-align: center;
+    margin-top: -105px;
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 216px;
+    z-index: 1;
+}
+.m-user-info .avatar {
+    padding: 10px;
+    background: #fff;
+    background: hsla(0,0%,100%,.2);
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.g-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    position: relative;
+}
+.m-user-sider {
+     width: 210px;
+     margin-right: 55px;
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+
+.g-user-content.border {
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+}
+.g-user-content {
+    margin-left: 265px;
+    min-height: 240px;
+}
+.m-user-form {
+    padding-top: 10px;
+    padding-left: 170px;
+    color: #60686b;
+}
+.m-user-form .form-ipt {
+    margin-bottom: 30px;
+}
+.m-user-form .form-ipt .label-name {
+    line-height: 40px;
+    width: 70px;
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+    color: #787d82;
+    font-size: 15px;
+}
+
+.m-user-form .btn-submit {
+    border-radius: 4px;
+    display: block;
+    width: 374px;
+    color: #fff;
+    background: #0084ff;
+    border: none;
+    height: 35px;
+}
+
+.u-txt {
+    background-color: #fff;
+    border: 1px solid #d0d6d9;
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 3px;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    height: 25px;
+    line-height: 20px;
+}
+.f-oh input,select{
+    height: 100%;
+}
+.f-oh{
+    height: 40px;
+}
+.item{
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    height: 40px;
+}

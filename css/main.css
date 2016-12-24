@@ -284,3 +284,8 @@ textarea {
 .container span{
     font-size: 80px;
 }
+
+.head{
+    margin-top: 0;
+    width: 100%;
+}
