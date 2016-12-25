@@ -1,0 +1,67 @@
+.content{
+
+}
+
+.page-1{
+    background: #8953ff;
+    height: 720px;
+    position: relative;
+    color: #fff;
+    font-weight: lighter;
+}
+.page-2{
+    height: 550px;
+    position: relative;
+    color: #fff;
+    font-weight: lighter;
+}
+.page-3{
+    background: #213963;
+    height: 720px;
+    position: relative;
+    color: #fff;
+    font-weight: lighter;
+}
+.page-4{
+    background: #9dce5e;
+    height: 550px;
+    position: relative;
+    color: #fff;
+    font-weight: lighter;
+}
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+
+}
+.bg-l img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.bg-r{
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+
+}
+.text-l{
+    float: left;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.text-l h1{
+    font-size: 80px;
+    font-family: "Heiti SC";
+}
+.text-r {
+    float: right;
+    margin-right: 8%;
+    margin-top: 10%;
+
+}
+.text-r h1{
+    font-size: 80px;
+    font-family: "Heiti SC";
+}
