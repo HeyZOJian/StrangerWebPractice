@@ -1,6 +1,4 @@
-.content{
 
-}
 
 .page-1{
     background: #8953ff;
@@ -64,20 +62,4 @@
 .text-r h1{
     font-size: 80px;
     font-family: "Heiti SC";
-}
-.footer{
-    width: auto;
-    height: 100px;
-    margin-bottom: 0%;
-    background-color: white;
-}
-.footer a{
-
-    margin-left: 10%;
-}
-.footer a:hover{
-    text-decoration: none;
-}
-.item{
-    width: 550px;
 }
