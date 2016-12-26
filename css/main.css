@@ -289,3 +289,21 @@ textarea {
     margin-top: 0;
     width: 100%;
 }
+.content{
+    height: 920px;
+}
+.footer{
+    height: 100px;
+    margin-bottom: 0%;
+    background-color: white;
+}
+.footer a{
+
+    margin-left: 10%;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer-item{
+    width: 500px;
+}
